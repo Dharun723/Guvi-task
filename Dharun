@@ -1,0 +1,24 @@
+1)public class Main {
+    public static void main(String[] args) {
+        int a = 4;
+        int b = 5;
+        int c = 3;
+        int d = 2;
+        if (a + b > c + d) {
+            System.out.println("Sum of a + b is greater than sum of c + d: " + (a + b));
+        } else {
+            System.out.println("Sum of c + d is greater than or equal to sum of a + b: " + (c + d));
+        }
+    }
+}
+
+2) public class Main {
+    public static void main(String[] args) {
+        int a = 2;
+        if (a % 2 == 0) {
+            System.out.println("a is even");
+        } else {
+            System.out.println("a is odd");
+        }
+    }
+}
