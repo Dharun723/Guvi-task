@@ -22,3 +22,24 @@
         }
     }
 }
+3)public class Main {
+    public static void main(String[] args) {
+        // Loop through characters from 'A' to 'Z'
+        for (char ch = 'A'; ch <= 'Z'; ch++) {
+            System.out.println(ch);
+        }
+    }
+}
+4) public class Main {
+    public static void main(String[] args) {
+        int a = 2;
+        int b = 3;
+        int c = a;  // Save the value of a in c
+        a = b;      // Assign the value of b to a
+        b = c;      // Assign the saved value (original a) to b
+
+        // Print the values of a and b after swapping
+        System.out.println("a: " + a);  // Should print 3
+        System.out.println("b: " + b);  // Should print 2
+    }
+}
