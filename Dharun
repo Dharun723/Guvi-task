@@ -43,3 +43,68 @@
         System.out.println("b: " + b);  // Should print 2
     }
 }
+5) public class Main {
+    public static void main(String[] args) {
+        int number = 29;  // Change this number to test other values
+        boolean isPrime = true;
+        if (number < 2) {
+            isPrime = false;
+        } else {
+            // Check for factors from 2 to number-1
+            for (int i = 2; i <= number / 2; i++) {
+                if (number % i == 0) {
+                    isPrime = false;
+                    break;
+                }
+            }
+}
+        if (isPrime) {
+            System.out.println(number + " is a prime number.");
+        } else {
+            System.out.println(number + " is not a prime number.");
+        }
+    }
+}
+6) public class Main {
+    public static void main(String[] args) {
+        int a = 5;
+        
+        if (a != 120) {
+            System.out.println("It is not equal to 120: " + a);
+        } else {
+            System.out.println("It is equal to 120: " + a);
+        }
+    }
+}
+7) public class Main {
+    public static void main(String[] args) {
+        String msg = "guvi geek";
+        int c = msg.length();
+        System.out.println(c);
+    }
+}
+8) public class Main {
+    public static void main(String[] args) {
+        String a = "guvi";  // The string to print
+        
+        for (int i = 0; i < 10; i++) {  // Loop 10 times
+            System.out.println(a);  // Print "guvi" each time
+        }
+    }
+}
+9) public class Statment {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+         System.out.print("Enter your age: ");
+        int age = scanner.nextInt();
+        
+        // Check if the person is a senior citizen
+        if (age >= 60) {
+            System.out.println("You are a senior citizen.");
+        } else {
+            System.out.println("You are not a senior citizen.");
+        }
+
+        scanner.close();
+    }
+}
