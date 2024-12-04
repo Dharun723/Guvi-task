@@ -1,4 +1,4 @@
-1)public class Main {
+1)public class Statement {
     public static void main(String[] args) {
         int a = 4;
         int b = 5;
@@ -12,7 +12,7 @@
     }
 }
 
-2) public class Main {
+2) public class Statement{
     public static void main(String[] args) {
         int a = 2;
         if (a % 2 == 0) {
@@ -22,7 +22,7 @@
         }
     }
 }
-3)public class Main {
+3)public class Statement {
     public static void main(String[] args) {
         // Loop through characters from 'A' to 'Z'
         for (char ch = 'A'; ch <= 'Z'; ch++) {
@@ -30,7 +30,7 @@
         }
     }
 }
-4) public class Main {
+4) public class Statement {
     public static void main(String[] args) {
         int a = 2;
         int b = 3;
@@ -43,7 +43,7 @@
         System.out.println("b: " + b);  // Should print 2
     }
 }
-5) public class Main {
+5) public class Statement {
     public static void main(String[] args) {
         int number = 29;  // Change this number to test other values
         boolean isPrime = true;
@@ -65,7 +65,7 @@
         }
     }
 }
-6) public class Main {
+6) public class Statement {
     public static void main(String[] args) {
         int a = 5;
         
@@ -76,14 +76,14 @@
         }
     }
 }
-7) public class Main {
+7) public class Statement{
     public static void main(String[] args) {
         String msg = "guvi geek";
         int c = msg.length();
         System.out.println(c);
     }
 }
-8) public class Main {
+8) public class Statement {
     public static void main(String[] args) {
         String a = "guvi";  // The string to print
         
